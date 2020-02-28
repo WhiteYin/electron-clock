@@ -4,8 +4,7 @@ const ipc = require('electron').ipcRenderer
 let timer = null;
 let countDownTimer = null;
 let count = 0;
-//const FIVE_MINUTES = 5 * 60 * 1000;
-const FIVE_MINUTES = 1000;
+const FIVE_MINUTES = 5 * 60 * 1000;
 const TWENTY_FIVE_MINUTES = 5 * FIVE_MINUTES;
 
 const stopBtn = document.querySelector('#stop-btn');
